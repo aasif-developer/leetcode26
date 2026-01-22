@@ -1,4 +1,3 @@
-package leetcode26;
 import java.util.Scanner;
 public class PalindromeNumber
 {
