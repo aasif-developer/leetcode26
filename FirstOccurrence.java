@@ -17,12 +17,12 @@ public class FirstOccurrence {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter 1st string: ");
+        System.out.print("Enter the 1st string: ");
         String a= sc.nextLine();
-        System.out.print("Enter 2nd string: ");
+        System.out.print("Enter the 2nd string: ");
         String b = sc.nextLine();
         int index = strStr(a, b);
-        System.out.println("First occurrence index: " + index);
+        System.out.println("First occurrence index is : " + index);
         sc.close();
     }
 }
